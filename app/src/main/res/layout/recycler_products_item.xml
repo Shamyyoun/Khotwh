@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp200">
+
+            <FrameLayout
+                android:id="@+id/layout_defImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/default_image_bg">
+
+                <ImageView
+                    style="@style/NormalImageView"
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="@dimen/dp100"
+                    android:layout_gravity="center"
+                    android:src="@drawable/def_image" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/image_image"
+                style="@style/CroppedImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <views.BoldTextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="Highlight Khotwh"
+            android:textColor="@color/dark_gray_text"
+            android:textSize="@dimen/sp17" />
+
+        <views.LightTextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_dp7"
+            android:text="20 $"
+            android:textColor="@color/light_gray_text"
+            android:textSize="@dimen/sp17" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button_remove"
+        style="@style/NormalImageView"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:src="@drawable/remove_icon"
+        android:visibility="gone" />
+</FrameLayout>

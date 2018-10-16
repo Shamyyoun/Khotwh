@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/layout_men"
+        style="@style/CategoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/men_bg">
+
+        <ImageView
+            style="@style/NormalImageView"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/men_logo" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/layout_women"
+        style="@style/CategoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp3"
+        android:layout_weight="1"
+        android:background="@drawable/women_bg">
+
+        <ImageView
+            style="@style/NormalImageView"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:src="@drawable/women_logo" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/layout_kids"
+        style="@style/CategoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp3"
+        android:layout_weight="1"
+        android:background="@drawable/kids_bg">
+
+        <ImageView
+            style="@style/NormalImageView"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/kids_logo" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

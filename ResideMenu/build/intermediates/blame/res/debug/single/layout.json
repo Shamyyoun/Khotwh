@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\res\\layout\\residemenu_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_custom_right_scrollview.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\res\\layout\\residemenu_custom_right_scrollview.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_custom_left_scrollview.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\res\\layout\\residemenu_custom_left_scrollview.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_custom.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\ResideMenu\\res\\layout\\residemenu_custom.xml"
+    }
+]

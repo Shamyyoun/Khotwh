@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp52"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back_icon" />
+
+        <views.BoldTextView
+            android:id="@+id/text_title"
+            style="@style/ActionBarTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp65"
+            android:layout_weight="1"
+            android:text="@string/update_profile" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/action_bar_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:layout_below="@+id/action_bar"
+        android:background="@color/screen_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar_seperator"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/CroppedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp130"
+            android:src="@drawable/user_top_image" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp10"
+                android:paddingRight="@dimen/dp10">
+
+                <views.LightEditText
+                    android:id="@+id/text_firstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/first_name"
+                    android:capitalize="words"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_gray_text"
+                    android:textSize="@dimen/sp19" />
+
+                <views.LightEditText
+                    android:id="@+id/text_lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/last_name"
+                    android:capitalize="words"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_gray_text"
+                    android:textSize="@dimen/sp19" />
+
+                <views.LightEditText
+                    android:id="@+id/text_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/mobile_no"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_gray_text"
+                    android:textSize="@dimen/sp19" />
+
+                <views.LightEditText
+                    android:id="@+id/text_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_gray_text"
+                    android:textSize="@dimen/sp19" />
+
+                <views.LightEditText
+                    android:id="@+id/text_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/address"
+                    android:capitalize="sentences"
+                    android:textColor="@color/dark_gray_text"
+                    android:textSize="@dimen/sp19" />
+
+                <views.LightEditText
+                    android:id="@+id/text_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/city"
+                    android:capitalize="sentences"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_gray_text"
+                    android:textSize="@dimen/sp19" />
+            </LinearLayout>
+        </ScrollView>
+
+        <views.BoldButton
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:background="@drawable/green_button"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp20" />
+    </LinearLayout>
+</RelativeLayout>

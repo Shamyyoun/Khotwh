@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp52"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_menu"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/menu_icon" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <views.LightEditText
+                android:id="@+id/text_search"
+                style="@style/ActionBarSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="@string/search"
+                android:visibility="gone" />
+
+            <views.BoldTextView
+                android:id="@+id/text_title"
+                style="@style/ActionBarTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/khotwh" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/search_icon" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/action_bar_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:layout_below="@+id/action_bar"
+        android:background="@color/screen_bg" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar_seperator"
+        android:background="@color/screen_bg" />
+</RelativeLayout>

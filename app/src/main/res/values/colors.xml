@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#233c4e</color>
+    <color name="primary_dark">#0b1d2a</color>
+    <color name="screen_bg">#e2e2e2</color>
+    <color name="nav_primary_dark">#141417</color>
+    <color name="sub_cat_header_hover">#d6233c4e</color>
+    <color name="default_image_bg">#e4e4e4</color>
+    <color name="dark_gray_text">#363636</color>
+    <color name="light_gray_text">#737373</color>
+    <color name="msg_view_bg_pressed">#1b000000</color>
+    <color name="green_button_normal">#22c064</color>
+    <color name="green_button_pressed">#129c4c</color>
+    <color name="blue_button_normal">#233d4e</color>
+    <color name="blue_button_pressed">#12212b</color>
+    <color name="blue_button_disabled">#919191</color>
+    <color name="red_button_normal">#4F2324</color>
+    <color name="red_button_pressed">#2E1010</color>
+    <color name="light_gray_seperator">#737373</color>
+    <color name="count_panel_bg">#F3F3F3</color>
+</resources>

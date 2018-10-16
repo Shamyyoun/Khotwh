@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\success_mask_layout.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\src\\main\\res\\anim\\success_mask_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\success_bow_roate.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\src\\main\\res\\anim\\success_bow_roate.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\modal_out.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\src\\main\\res\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\error_frame_in.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\src\\main\\res\\anim\\error_frame_in.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\error_x_in.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\src\\main\\res\\anim\\error_x_in.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\build\\intermediates\\res\\merged\\debug\\anim\\modal_in.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\sweet_alert\\src\\main\\res\\anim\\modal_in.xml"
+    }
+]

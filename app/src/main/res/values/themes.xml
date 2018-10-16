@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/screen_bg</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Transparent Screen theme. -->
+    <style name="TransparentTheme" parent="AppTheme" />
+
+    <!-- Black Status Bar Screen theme. -->
+    <style name="BlackStatusBarTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+</resources>

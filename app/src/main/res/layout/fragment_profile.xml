@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/CroppedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp130"
+        android:src="@drawable/user_top_image" />
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp10">
+
+            <views.LightTextView
+                android:id="@+id/text_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="First Name"
+                android:textColor="@color/dark_gray_text"
+                android:textSize="@dimen/sp19" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@color/screen_bg" />
+
+            <views.LightTextView
+                android:id="@+id/text_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="First Name"
+                android:textColor="@color/dark_gray_text"
+                android:textSize="@dimen/sp19" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@color/screen_bg" />
+
+            <views.LightTextView
+                android:id="@+id/text_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="First Name"
+                android:textColor="@color/dark_gray_text"
+                android:textSize="@dimen/sp19" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@color/screen_bg" />
+
+            <views.LightTextView
+                android:id="@+id/text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="First Name"
+                android:textColor="@color/dark_gray_text"
+                android:textSize="@dimen/sp19" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@color/screen_bg" />
+
+            <views.LightTextView
+                android:id="@+id/text_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="First Name"
+                android:textColor="@color/dark_gray_text"
+                android:textSize="@dimen/sp19" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@color/screen_bg" />
+
+            <views.LightTextView
+                android:id="@+id/text_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="First Name"
+                android:textColor="@color/dark_gray_text"
+                android:textSize="@dimen/sp19" />
+        </LinearLayout>
+    </ScrollView>
+
+    <views.BoldButton
+        android:id="@+id/button_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@drawable/green_button"
+        android:text="@string/update_profile"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp20" />
+</LinearLayout>

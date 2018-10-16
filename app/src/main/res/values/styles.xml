@@ -1,0 +1,52 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Normal ImageView -->
+    <style name="NormalImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Cropped ImageView -->
+    <style name="CroppedImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Category Layout -->
+    <style name="CategoryLayout">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleColor">@color/primary</item>
+    </style>
+
+    <!-- ActionBar Search -->
+    <style name="ActionBarSearch">
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/sp18</item>
+    </style>
+
+    <!-- ActionBar Title -->
+    <style name="ActionBarTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/sp21</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Footer ProgressBar -->
+    <style name="FooterProgressBar">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/dp5</item>
+        <item name="pv_autostart">true</item>
+        <item name="pv_circular">true</item>
+        <item name="pv_progressMode">indeterminate</item>
+        <item name="pv_progressStyle">@style/Material.Drawable.CircularProgress</item>
+    </style>
+</resources>

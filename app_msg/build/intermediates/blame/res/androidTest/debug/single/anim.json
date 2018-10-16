@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\app_msg\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\app_msg\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\Khotwh\\app_msg\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\Khotwh\\app_msg\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in.xml"
+    }
+]

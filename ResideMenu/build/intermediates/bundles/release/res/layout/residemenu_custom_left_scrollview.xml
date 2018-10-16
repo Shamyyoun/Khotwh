@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame_layout_left_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp25"
+        android:layout_marginBottom="@dimen/dp7"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/image_left_menu"
+            android:layout_width="@dimen/dp140"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/sv_left_menu"
+        android:layout_width="@dimen/dp150"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frame_layout_left_image"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp40"
+        android:paddingBottom="@dimen/dp20"
+        android:paddingTop="@dimen/dp20"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/layout_left_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+</RelativeLayout>

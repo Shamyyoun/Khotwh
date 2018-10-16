@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:id="@+id/layout_defImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_image_bg">
+
+        <ImageView
+            style="@style/NormalImageView"
+            android:layout_width="@dimen/dp100"
+            android:layout_height="@dimen/dp100"
+            android:layout_gravity="center"
+            android:src="@drawable/def_image" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/image_image"
+        style="@style/NormalImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
